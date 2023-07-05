@@ -1,0 +1,22 @@
+{
+    "frutas": [
+        {
+            "id": 1,
+            "nome": "Melancia",
+            "categoria": "Fruta",
+            "descrição": "....",
+            "image": [
+                "https://images-americanas.b2w.io/produtos/01/00/img/7011/0/7011033_3GG.jpg"
+            ]
+        },
+        {        
+            "id": 2,
+            "nome": "Uva",
+            "categoria": "Fruta",
+            "descrição": "....",
+            "image": [
+                "https://images-americanas.b2w.io/produtos/1442451634/imagens/shampoo-350ml-condicionador-175ml-pantene-hidratacao/1442451634_1_xlarge.jpg"
+           ]
+        }
+    ]
+}
