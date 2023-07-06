@@ -83,3 +83,29 @@ header {
   box-sizing: border-box;
   flex: 1;
 }
+
+
+.detalhes-image {
+  width: 520px;
+  margin-top: 100px;
+}
+
+.detalhes-plantas {
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(236, 235, 235);
+}
+
+.detalhes-plantas h2{
+  color: #FFD621;;
+  background-color: black;
+  text-align: start;
+  padding: 10px 100px;
+}
+
+.detalhes-plantas p{
+  text-align: justify;
+  padding: 10px 100px;
+}
