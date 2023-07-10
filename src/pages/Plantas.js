@@ -11,12 +11,6 @@ export default function Plantas() {
 
       return(
         <div className='detalhes-usuario'>
-            <header>
-                 <div className='usuario'>
-                    <span>Usuário</span>
-                 </div>
-            </header>
-
             <section className="lista-plantas">
                 {plantaList.map((itens, index) => (
                     <Item key={index} planta={itens} />
