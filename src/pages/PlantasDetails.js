@@ -14,7 +14,7 @@ export default function PlantasDetails() {
               <img className="detalhes-image" src={state.itens.image} alt="" />
             </div>
             <div>
-              <h2>{state.itens.nome} - {id}</h2>
+              <h2>{state.itens.nome}</h2>
               <p>{state.itens.descrição}</p>
             </div>
           </div>

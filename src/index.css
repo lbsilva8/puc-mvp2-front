@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
-body {
-  margin: 0px;
-  background-color: #EAEAEA;
-  font-family: 'Roboto';
-  padding: 0;
-}
-
 header {
   position: fixed;
   width: 100%;
@@ -18,10 +10,24 @@ header {
   display: flex;
 }
 
-.detalhes-usuario {
+body {
+  margin: 0px;
+  background-color: #EAEAEA;
+  font-family: 'Roboto';
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.parte1 {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 1364px;
+  height: 620px;
+  margin: 0px;
+  padding-top: 50px;
+
 }
 
 .barra-navegacao {
@@ -33,7 +39,7 @@ header {
   display: flex;
   list-style: none;
   align-items: center;
-  padding: 20px 700px;
+  padding: 10px 700px;
 }
 
 .item {
@@ -69,9 +75,10 @@ text-decoration: none;
 }
 
 .pagina-inicial{
-  color: #FFD621;
   text-align: center;
   padding: 5px 20px;
+  display: inline-block;
+  
 }
 
 .planta {
@@ -116,6 +123,7 @@ text-decoration: none;
   justify-items: center;
   box-sizing: border-box;
   flex: 1;
+  padding-top: 50px;
 }
 
 
@@ -154,13 +162,14 @@ text-decoration: none;
 } 
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 2.5rem;
   background-color:#834c4c;
   color: white;
   text-align: center;
+  position: absolute;
 }
 
 .icones {
@@ -171,4 +180,52 @@ text-decoration: none;
 
 .icones :hover {
   color: #B96E6E;
+}
+
+.jardim-esquerda {
+  width: 606px;
+  height: 620px;
+}
+
+.jardim-parte1E h1 {
+  color: #43AD74;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 10%;
+  font-weight: bold;
+  line-height: 12px;
+  width: 500px;
+  padding: 10px 0px 0px 70px;
+}
+
+.jardim-parte1E h2 {
+  color: #43AD74;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 10%;
+  line-height: 12px;
+  width: 500px;
+  padding: 10px 0px 0px 70px;
+}
+
+.jardim-parte2E {
+  color: black;
+  padding: 10px 0px 0px 70px;
+  width: 500px;
+  height: 84px;
+}
+
+.jardim-direita {
+  width:700px;
+  height:600px;
+  background-color: #b96e6e;
+  opacity: 0.5; 
+}
+
+.parte-meio {
+  width:100px;
+  height:100px;
+  background-color: #b96e6e;
+  opacity: 0.4;
+  padding: 500px;
 }

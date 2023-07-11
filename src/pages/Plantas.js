@@ -8,6 +8,7 @@ export default function Plantas() {
     useEffect(() => {
         setPlantasList(plantas.frutas)
       }, [])
+      
 
       return(
         <div className='detalhes-usuario'>
@@ -16,7 +17,6 @@ export default function Plantas() {
                     <Item key={index} planta={itens} />
                 ))}
             </section>
-            <footer></footer>
         </div>
       )
 }

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 
 export default function BarraNavegacao() {
     return (
-        <div className='detalhes-usuario'>
             <header>
                 <div className='usuario'>
                     <span>Usuário</span>
@@ -10,17 +9,16 @@ export default function BarraNavegacao() {
                 <div className="barra-navegacao">
                     <ul className="menu">
                         <li className="item">
-                            <Link to="/">Home</Link>
+                            <Link to="/">HOME</Link>
                         </li>
                         <li className="item">
-                            <Link to="/plantas">Plantas</Link>
+                            <Link to="/plantas">PLANTAS</Link>
                         </li>
                         <li className="item">
-                            <Link to="/calendarioplantacao">Calendario</Link>
+                            <Link to="/calendarioplantacao">CALENDARIO</Link>
                         </li>
                     </ul>
                 </div>
             </header>
-        </div>
     )
 }

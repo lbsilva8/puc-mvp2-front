@@ -4,18 +4,49 @@
             "id": 1,
             "nome": "Melancia",
             "categoria": "Fruta",
-            "descrição": "....",
+            "plantio":"Depende do clima",
+            "colheita":"28 a 45 dias",
+            "descrição": "A melancia atinge o ponto de colheita entre 28 a 45 dias após a fecundação das flores femininas ou hermafroditas, dependendo da cultivar e das condições climáticas. A época de plantio mais favorável para a cultura da melancia é que apresenta temperaturas variando de 18 °C a 25 °C. Nesse contexto, nas regiões de clima frio, o plantio da melancia é feito de outubro a fevereiro; nas de clima ameno, de agosto a março, e nas regiões de clima quente, o ano todo, com uso da irrigação. Deve-se evitar, porém, as épocas de chuvas intensas.",
             "image": [
-                "https://images-americanas.b2w.io/produtos/01/00/img/7011/0/7011033_3GG.jpg"
+                "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/cenourao/media/uploads/produtos/foto/7a448289831efile.png"
             ]
         },
         {        
             "id": 2,
             "nome": "Uva",
             "categoria": "Fruta",
+            "plantio":"Segundo Semestre",
+            "colheita":"3 a 4 meses",
+            "descrição": "....   Geralmente, a melhor época do ano para plantar muda de videira é no segundo semestre. No caso de mudas enxertadas que são oriundas de viveiros recomenda-se o plantio de julho a agosto. Para mudas de torrão, entre outubro e dezembro.",
+            "image": [
+                "https://www.proativaalimentos.com.br/image/cache/catalog/img_prod/uva[1]-500x500.jpg"
+           ]
+        },
+        {        
+            "id": 3,
+            "nome": "Morango",
+            "categoria": "Fruta",
             "descrição": "....",
             "image": [
-                "https://images-americanas.b2w.io/produtos/1442451634/imagens/shampoo-350ml-condicionador-175ml-pantene-hidratacao/1442451634_1_xlarge.jpg"
+                "https://portaldoorganico.com.br/wp-content/uploads/2021/04/morango.jpg"
+           ]
+        },
+        {        
+            "id": 4,
+            "nome": "Banana",
+            "categoria": "Fruta",
+            "descrição": "....",
+            "image": [
+                "https://www.infoescola.com/wp-content/uploads/2010/04/banana_600797891.jpg"
+           ]
+        },
+        {        
+            "id": 5,
+            "nome": "Mamão",
+            "categoria": "Fruta",
+            "descrição": "....",
+            "image": [
+                "https://vallefrutas.com.br/wp-content/uploads/papaya-01.png"
            ]
         }
     ]
