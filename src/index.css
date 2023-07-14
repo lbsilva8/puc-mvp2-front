@@ -70,17 +70,19 @@ text-decoration: none;
 
 .footer {
   background-color: #B96E6E;
-  display: flex;
   text-align: center;
   font-size: 14px;
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
 }
 
-.icones {
+.footer li {
   justify-content: center;
   list-style: none;
+
 }
 
-.icones :hover {
+.footer li :hover {
   color: #914a4a;
 }
 
