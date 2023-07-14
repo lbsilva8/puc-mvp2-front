@@ -1,16 +1,75 @@
-# Getting Started with Create React App
+<h1 align="center">Front-end Página MEU JARDIM VIRTUAL</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+ <a href="#descricao">Descrição do projeto</a> •
+ <a href="#executar">Como executar</a> • 
+ <a href="#funcionalidades">Funcionalidades</a> • 
+ <a href="#autor">Autor</a>
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##  Descrição do projeto
 
-### `npm start`
+MVP para a disciplina de Desenvolvimento Front-end Avançado da pós-graduação em Desenvolvimento Full Stack da PUC-RJ. <br>
+Foi utilizado React para contruir uma aplicação com algumas páginas, bem como a protipação no Figma com iteratividade.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*O protótipo no figma está disponível no link:* [https://www.figma.com/file/MylIISORKagwgDRzPfIKxe/MVP2?type=design&node-id=0%3A1&mode=design&t=m1RavUgd3oDbuaJi-1](https://www.figma.com/file/MylIISORKagwgDRzPfIKxe/MVP2?type=design&node-id=0%3A1&mode=design&t=m1RavUgd3oDbuaJi-1)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
+## Como executar
+
+- Faça o download do projeto;
+
+- Será necessário ter o [Nodejs, ou o npm,](https://nodejs.org/en/download/) instalado.
+
+- Exectar o comando para instalação das bibliotecas:
+
+```
+$ npm install
+```
+
+- Executar o comando para execução da interface:
+
+```
+$ npm start
+```
+
+- Abrir o [http://localhost:3000/#/](http://localhost:3000/#/) no navegador.
+
+
+## Funcionalidades
+
+
+- [x] Pagina com lista de plantas;
+- [x] Página com mais informações;
+- [x] Página Home;
+- [ ] Calendário com fases de cada planta;
+- [ ] Jardim virtual de cada usuário;
+
+
+
+---
+### Prototipo Figma:
+---
+
+
+![home](<src/assets/HOME.png>)
+![informações](<src/assets/INFORMAÇÕES.png>)
+![saiba mais](<src/assets/SAIBA MAIS.png>)
+
+
+### Autor
+---
+
+<a>
+ <sub><b>Lorena Borges</b></sub></a>
+
+
+Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Lorena-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lorenadasilvaborges/)](https://www.linkedin.com/in/lorenadasilvaborges/) 
+[![Gmail Badge](https://img.shields.io/badge/-sborges.lorena@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sborges.lorena@gmail.com)](mailto:sborges.lorena@gmail.com)
+
+
+ 🚧  Em construção  🚧
