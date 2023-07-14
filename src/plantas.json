@@ -17,7 +17,7 @@
             "categoria": "Fruta",
             "plantio":"Segundo Semestre",
             "colheita":"3 a 4 meses",
-            "descrição": "....   Geralmente, a melhor época do ano para plantar muda de videira é no segundo semestre. No caso de mudas enxertadas que são oriundas de viveiros recomenda-se o plantio de julho a agosto. Para mudas de torrão, entre outubro e dezembro.",
+            "descrição": "Geralmente, a melhor época do ano para plantar muda de videira é no segundo semestre. No caso de mudas enxertadas que são oriundas de viveiros recomenda-se o plantio de julho a agosto. Para mudas de torrão, entre outubro e dezembro.",
             "image": [
                 "https://www.proativaalimentos.com.br/image/cache/catalog/img_prod/uva[1]-500x500.jpg"
            ]
@@ -26,7 +26,9 @@
             "id": 3,
             "nome": "Morango",
             "categoria": "Fruta",
-            "descrição": "....",
+            "plantio":"Depende da região",
+            "colheita":"70 a 80 dias",
+            "descrição": "O morango tem origem no clima frio, embora não tolere geadas, já temperaturas muito altas favorecem o crescimento vegetativo e deixam os frutos muito azedos. no Sul e Sydeste recomenda-se o plantio entre Março e Abril, enquanto no Centro-oeste o melhor periodo é entre Fevereiro e Março. Ao escolher a área para plantar morango, saiba que é importante que o terreno tenha uma leve inclinação (cerca de 2% a 3%), seja bem drenado e tenha boa incidência de luz.",
             "image": [
                 "https://portaldoorganico.com.br/wp-content/uploads/2021/04/morango.jpg"
            ]
@@ -35,16 +37,20 @@
             "id": 4,
             "nome": "Banana",
             "categoria": "Fruta",
-            "descrição": "....",
+            "plantio":"Qualquer época do ano",
+            "colheita":" 11 a 13 meses",
+            "descrição": "A bananeira é uma planta que se desenvolve bem em climas quentes e com índice pluviométrico elevado. Havendo disponibilidade de água, ela pode ser cultivada em qualquer época do ano. De uma forma geral, nas regiões de clima tropical e nas áreas irrigadas é possível a colheita do primeiro cacho de 11 a 13 meses; em clima subtropical e sem irrigação, a primeira colheita ocorre depois de 15 a 18 meses; e em regiões mais frias, de 21 a 24 meses após o plantio da muda no campo.",
             "image": [
-                "https://www.infoescola.com/wp-content/uploads/2010/04/banana_600797891.jpg"
+                "https://mercadoorganico.com/6398-large_default/banana-prata-organica-600g-osm.jpg"
            ]
         },
         {        
             "id": 5,
             "nome": "Mamão",
             "categoria": "Fruta",
-            "descrição": "....",
+            "plantio":"Qualquer época do ano",
+            "colheita":"8 a 10 meses",
+            "descrição": "Com o solo preparado e com sistema de irrigação, o mamoeiro pode ser plantado em qualquer época do ano. Sem irrigação, as mudas devem ser levadas para o campo no início das chuvas e plantadas em dias nublados ou chuvosos. O clima ideal para o mamoeiro é aquele com temperaturas entre 22 a 26ºC, com luz solar direta e com chuvas bem distribuídas.",
             "image": [
                 "https://vallefrutas.com.br/wp-content/uploads/papaya-01.png"
            ]

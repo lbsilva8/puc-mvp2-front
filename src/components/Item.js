@@ -9,10 +9,14 @@ export default function Item(props) {
             <Link to={`/plantas/${planta.id}`} state={{ itens: planta }}>
                 <p className="nome-planta">{planta.nome}</p>
             </Link>
-            <span>Categoria: {planta.categoria}</span>
-            <span>Plantio: {planta.plantio}</span>
-            <span>Colheita: {planta.colheita}</span>
-            <button onclick={<Link to={`/plantas/${planta.id}`} state={{ itens: planta }}></Link>}>Saiba Mais</button>
+            <span><strong>Categoria:</strong> {planta.categoria}</span>
+            <span><strong>Plantio: </strong> {planta.plantio}</span>
+            <span><strong>Colheita:</strong>  {planta.colheita}</span>
+
+            <Link to={`/plantas/${planta.id}`} state={{ itens: planta }}>
+                <button className="saiba-mais">Saiba Mais</button>
+            </Link>
+            
         </article>
     );
 }

@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className='footer'>
             <ul className='icones'>
                 <li>
-                    <FaGithub></FaGithub>
+                    Desenvolvido por Lorena Borges <FaGithub></FaGithub>
                 </li>
             </ul>
         </footer>
