@@ -5,12 +5,12 @@
 header {
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 100px;
   left: 0px;
   top: 0px;
-  background: #B96E6E;
   display: flex;
   z-index: 2;
+  font-family: 'Roboto';
 }
 
 body {
@@ -25,15 +25,21 @@ body {
 .barra-navegacao {
   display: flex;
   justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  background: #B96E6E;
 }
 
-
-.menu{
+.menu {
   display: flex;
   list-style: none;
   align-items: center;
-  padding: 10px 700px;
-  letter-spacing: 20%;
+  padding: 10px 0px 10px 0px;
+  position: relative;
+  height: 20px;
+  top: 30%;
+  left: 40%;
+  margin: 0px;
 }
 
 .item {
@@ -41,31 +47,17 @@ body {
 }
 
 .item a {
-color: #EAEAEA;
-text-decoration: none;
-}
-
-.item a:hover{
-  color:#7a4242;
+  color: #EAEAEA;
   text-decoration: none;
-  }
-
-.item a:focus{
-  color:#7a4242;
 }
 
-.usuario {
-  position: absolute;
-  width: 120px;
-  height: 30px;
-  right: 0px;
-  top: 9px;
-  background: url(assets/user.png);
-  background-repeat: no-repeat;
-  background-position: 60px;
-  display: flex;
-  align-items: center;
-  color: #f0f8ff;
+.item a:hover {
+  color: #7a4242;
+  text-decoration: none;
+}
+
+.item a:focus {
+  color: #7a4242;
 }
 
 .footer {
@@ -74,12 +66,14 @@ text-decoration: none;
   font-size: 14px;
   margin: 0 auto;
   padding: 10px 0px 10px 0px;
+  height: 40px;
 }
 
 .footer li {
   justify-content: center;
   list-style: none;
-
+  position: relative;
+  top: 12px
 }
 
 .footer li :hover {
@@ -92,13 +86,10 @@ text-decoration: none;
 .parte1 {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  margin: 0px;
-  padding-top: 50px;
-
+  margin: 100px 0px 0px 0px;
 }
 
-.pagina-inicial{
+.pagina-inicial {
   text-align: center;
   padding: 5px 20px;
   display: flex;
@@ -107,45 +98,48 @@ text-decoration: none;
 
 
 .jardim-esquerda {
-  width: 806px;
-  height: 620px;
-  padding-top: 100px;
+  padding: 0;
+  width: 50%;
+}
+
+.jardim-content {
+  vertical-align: middle;
+  margin-top: 25%;
 }
 
 .jardim-parte1E h1 {
   color: #43AD74;
   text-align: center;
   font-size: 30px;
-  letter-spacing: 10%;
   font-weight: bold;
-  line-height: 12px;
+  margin: 0;
 }
 
 .jardim-parte1E h2 {
   color: #43AD74;
   text-align: center;
   font-size: 25px;
-  letter-spacing: 10%;
-  line-height: 12px;
+  font-weight: 100;
+  margin: 0;
+
 }
 
 .jardim-parte2E {
   color: black;
-  padding: 10px 40px 0px 40px;
+  font-size: 12px;
+  padding: 0px 40px 0px 40px;
+  margin-top: 50px;
 }
 
 .jardim-direita {
-  width:800px;
-  height:600px;
-  background-color: #b96e6e;
-  opacity: 0.5; 
-  position:static;
-  float: right;
-  position: relative;
+  background-color: rgba(185, 110, 100, 0.5);
+  width: 50%;
 }
 
 .jardim-direita img {
-  padding-top: 40px;
+  padding: 40px 0px 40px 0px;
+  align-items: center;
+  opacity: 5;
 }
 
 
@@ -178,21 +172,22 @@ text-decoration: none;
   background-color: rgb(236, 235, 235);
 }
 
-.detalhes-plantas h2{
-  color: #0f0f0f;;
+.detalhes-plantas h2 {
+  color: #0f0f0f;
+  ;
   background-color: #75da9d;
   text-align: start;
-  padding: 5px 100px 5px ;
+  padding: 5px 100px 5px;
   vertical-align: center;
 }
 
-.detalhes-plantas p{
+.detalhes-plantas p {
   text-align: justify;
   padding: 10px 100px;
 }
 
-.back{
-  position:absolute;
+.back {
+  position: absolute;
   top: 60px;
   left: 20px;
   background-color: black;
@@ -217,7 +212,7 @@ text-decoration: none;
   left: 40%;
   position: absolute;
   text-align: center;
-} 
+}
 
 /*itens*/
 
@@ -244,11 +239,11 @@ text-decoration: none;
 .nome-planta {
   margin: 0px 2px 15px;
   text-decoration: underline;
-  font-style:normal;
+  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   color: #764343;
-  height: 20px;  
+  height: 20px;
   text-align: center;
 }
 
