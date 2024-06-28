@@ -1,3 +1,4 @@
+/* Página com a llstagem de plantas e caracteristicas */
 import { useEffect, useState } from 'react';
 import Item from '../components/Item';
 
@@ -6,7 +7,7 @@ import plantas from '../plantas.json';
 export default function Plantas() {
   const [plantaList, setPlantasList] = useState([]);
   useEffect(() => {
-    setPlantasList(plantas.frutas);
+    setPlantasList(plantas.plantas);
   }, []);
 
   return (

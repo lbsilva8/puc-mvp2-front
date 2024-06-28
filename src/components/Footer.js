@@ -1,3 +1,4 @@
+/* Componete rodapé da página */
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 export default function Footer() {

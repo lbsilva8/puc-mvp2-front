@@ -153,7 +153,7 @@ body {
   justify-items: center;
   box-sizing: border-box;
   flex: 1;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 /*Plantas-detalhes*/
@@ -219,14 +219,14 @@ body {
 .planta {
   width: 240px;
   box-sizing: border-box;
+  grid-template-rows: 1fr 1.5fr 1fr 1fr 2fr;
   height: 400px;
   margin: 20px;
   padding: 20px 20px;
   background-color: white;
   border-radius: 18px;
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .planta img {
@@ -237,18 +237,31 @@ body {
 }
 
 .nome-planta {
-  margin: 0px 2px 15px;
-  text-decoration: underline;
+  margin: 0px 2px 0px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   color: #764343;
   height: 20px;
   text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nome-planta p {
+  margin: 0px;
+}
+
+.planta span {
+  height: 14px;
+  padding: 0px;
 }
 
 .saiba-mais {
   background-color: #b47878;
   color: #ffff;
-  margin-left: 50px;
+  height: 30px;
+  width: 120px;
+  margin-left: 40px;
+  border-radius: 8px;
 }
