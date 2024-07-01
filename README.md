@@ -43,6 +43,8 @@ $ npm start
 - [x] Página Home;
 - [ ] Calendário com fases de cada planta;
 - [ ] Jardim virtual de cada usuário;
+- [ ] Barra de pesquisa de plantaas;
+- [ ] Página de cadastro de plantas
 
 ### Autor
 

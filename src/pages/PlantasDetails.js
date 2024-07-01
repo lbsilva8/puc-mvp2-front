@@ -1,10 +1,9 @@
 /* Página com os detalhes da planta selecionada */
-import { useLocation, useNavigate, useParams } from 'react-router';
+import { useLocation } from 'react-router';
 
 export default function PlantasDetails() {
   let { state } = useLocation();
   console.log(useLocation());
-  let { id } = useParams();
 
   return (
     <div className="detalhes-plantas">

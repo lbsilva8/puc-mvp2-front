@@ -28,6 +28,7 @@ body {
   height: 100px;
   width: 100%;
   background: #B96E6E;
+
 }
 
 .menu {
@@ -38,8 +39,7 @@ body {
   position: relative;
   height: 20px;
   top: 30%;
-  left: 40%;
-  margin: 0px;
+  margin: 0px auto 0px;
 }
 
 .item {
@@ -51,13 +51,10 @@ body {
   text-decoration: none;
 }
 
-.item a:hover {
+.item a:hover,
+a:focus {
   color: #7a4242;
   text-decoration: none;
-}
-
-.item a:focus {
-  color: #7a4242;
 }
 
 .footer {

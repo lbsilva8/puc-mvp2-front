@@ -1,59 +1,90 @@
 {
-    "frutas": [
-        {
-            "id": 1,
-            "nome": "Melancia",
-            "categoria": "Fruta",
-            "plantio":"Depende do clima",
-            "colheita":"28 a 45 dias",
-            "descrição": "A melancia atinge o ponto de colheita entre 28 a 45 dias após a fecundação das flores femininas ou hermafroditas, dependendo da cultivar e das condições climáticas. A época de plantio mais favorável para a cultura da melancia é que apresenta temperaturas variando de 18 °C a 25 °C. Nesse contexto, nas regiões de clima frio, o plantio da melancia é feito de outubro a fevereiro; nas de clima ameno, de agosto a março, e nas regiões de clima quente, o ano todo, com uso da irrigação. Deve-se evitar, porém, as épocas de chuvas intensas.",
-            "image": [
-                "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/cenourao/media/uploads/produtos/foto/7a448289831efile.png"
-            ]
-        },
-        {        
-            "id": 2,
-            "nome": "Uva",
-            "categoria": "Fruta",
-            "plantio":"Segundo Semestre",
-            "colheita":"3 a 4 meses",
-            "descrição": "Geralmente, a melhor época do ano para plantar muda de videira é no segundo semestre. No caso de mudas enxertadas que são oriundas de viveiros recomenda-se o plantio de julho a agosto. Para mudas de torrão, entre outubro e dezembro.",
-            "image": [
-                "https://www.proativaalimentos.com.br/image/cache/catalog/img_prod/uva[1]-500x500.jpg"
-           ]
-        },
-        {        
-            "id": 3,
-            "nome": "Morango",
-            "categoria": "Fruta",
-            "plantio":"Depende da região",
-            "colheita":"70 a 80 dias",
-            "descrição": "O morango tem origem no clima frio, embora não tolere geadas, já temperaturas muito altas favorecem o crescimento vegetativo e deixam os frutos muito azedos. no Sul e Sydeste recomenda-se o plantio entre Março e Abril, enquanto no Centro-oeste o melhor periodo é entre Fevereiro e Março. Ao escolher a área para plantar morango, saiba que é importante que o terreno tenha uma leve inclinação (cerca de 2% a 3%), seja bem drenado e tenha boa incidência de luz.",
-            "image": [
-                "https://portaldoorganico.com.br/wp-content/uploads/2021/04/morango.jpg"
-           ]
-        },
-        {        
-            "id": 4,
-            "nome": "Banana",
-            "categoria": "Fruta",
-            "plantio":"Qualquer época do ano",
-            "colheita":" 11 a 13 meses",
-            "descrição": "A bananeira é uma planta que se desenvolve bem em climas quentes e com índice pluviométrico elevado. Havendo disponibilidade de água, ela pode ser cultivada em qualquer época do ano. De uma forma geral, nas regiões de clima tropical e nas áreas irrigadas é possível a colheita do primeiro cacho de 11 a 13 meses; em clima subtropical e sem irrigação, a primeira colheita ocorre depois de 15 a 18 meses; e em regiões mais frias, de 21 a 24 meses após o plantio da muda no campo.",
-            "image": [
-                "https://mercadoorganico.com/6398-large_default/banana-prata-organica-600g-osm.jpg"
-           ]
-        },
-        {        
-            "id": 5,
-            "nome": "Mamão",
-            "categoria": "Fruta",
-            "plantio":"Qualquer época do ano",
-            "colheita":"8 a 10 meses",
-            "descrição": "Com o solo preparado e com sistema de irrigação, o mamoeiro pode ser plantado em qualquer época do ano. Sem irrigação, as mudas devem ser levadas para o campo no início das chuvas e plantadas em dias nublados ou chuvosos. O clima ideal para o mamoeiro é aquele com temperaturas entre 22 a 26ºC, com luz solar direta e com chuvas bem distribuídas.",
-            "image": [
-                "https://vallefrutas.com.br/wp-content/uploads/papaya-01.png"
-           ]
-        }
-    ]
+  "plantas": [
+    {
+      "id": 1,
+      "nome": "Melancia",
+      "categoria": "Fruta",
+      "plantio": "Depende do clima",
+      "colheita": "100 a 120 dias após plantio",
+      "descrição": "A melancia atinge o ponto de colheita entre 28 a 45 dias após a fecundação das flores femininas ou hermafroditas, dependendo da cultivar e das condições climáticas. A época de plantio mais favorável para a cultura da melancia é que apresenta temperaturas variando de 18 °C a 25 °C. Nesse contexto, nas regiões de clima frio, o plantio da melancia é feito de outubro a fevereiro; nas de clima ameno, de agosto a março, e nas regiões de clima quente, o ano todo, com uso da irrigação. Deve-se evitar, porém, as épocas de chuvas intensas.",
+      "image": [
+        "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/cenourao/media/uploads/produtos/foto/7a448289831efile.png"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Uva",
+      "categoria": "Fruta",
+      "plantio": "Segundo Semestre",
+      "colheita": "85 a 200 dias",
+      "descrição": "Geralmente, a melhor época do ano para plantar muda de videira é no segundo semestre. No caso de mudas enxertadas que são oriundas de viveiros recomenda-se o plantio de julho a agosto. Para mudas de torrão, entre outubro e dezembro.",
+      "image": [
+        "https://www.proativaalimentos.com.br/image/cache/catalog/img_prod/uva[1]-500x500.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Morango",
+      "categoria": "Fruta",
+      "plantio": "Depende da região",
+      "colheita": "70 a 80 dias",
+      "descrição": "O morango tem origem no clima frio, embora não tolere geadas, já temperaturas muito altas favorecem o crescimento vegetativo e deixam os frutos muito azedos. no Sul e Sydeste recomenda-se o plantio entre Março e Abril, enquanto no Centro-oeste o melhor periodo é entre Fevereiro e Março. Ao escolher a área para plantar morango, saiba que é importante que o terreno tenha uma leve inclinação (cerca de 2% a 3%), seja bem drenado e tenha boa incidência de luz.",
+      "image": [
+        "https://www.infoescola.com/wp-content/uploads/2009/09/morangos1.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Banana",
+      "categoria": "Fruta",
+      "plantio": "Qualquer época do ano",
+      "colheita": " 11 a 13 meses",
+      "descrição": "A bananeira é uma planta que se desenvolve bem em climas quentes e com índice pluviométrico elevado. Havendo disponibilidade de água, ela pode ser cultivada em qualquer época do ano. De uma forma geral, nas regiões de clima tropical e nas áreas irrigadas é possível a colheita do primeiro cacho de 11 a 13 meses; em clima subtropical e sem irrigação, a primeira colheita ocorre depois de 15 a 18 meses; e em regiões mais frias, de 21 a 24 meses após o plantio da muda no campo.",
+      "image": [
+        "https://mercadoorganico.com/6398-large_default/banana-prata-organica-600g-osm.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Mamão",
+      "categoria": "Fruta",
+      "plantio": "Qualquer época do ano",
+      "colheita": "8 a 10 meses",
+      "descrição": "Com o solo preparado e com sistema de irrigação, o mamoeiro pode ser plantado em qualquer época do ano. Sem irrigação, as mudas devem ser levadas para o campo no início das chuvas e plantadas em dias nublados ou chuvosos. O clima ideal para o mamoeiro é aquele com temperaturas entre 22 a 26ºC, com luz solar direta e com chuvas bem distribuídas.",
+      "image": ["https://vallefrutas.com.br/wp-content/uploads/papaya-01.png"]
+    },
+    {
+      "id": 6,
+      "nome": "Pêra",
+      "categoria": "Fruta",
+      "plantio": "Junho a Setembro",
+      "colheita": "Em torno de 5 anos",
+      "descrição": "Para realizar o plantio e colheita de peras, é importante seguir algumas etapas essenciais que garantem o desenvolvimento saudável das pereiras e a produção de frutos de qualidade. O processo começa com a escolha do local adequado, que deve ser ensolarado e ter solo bem drenado, rico em matéria orgânica. A melhor época para plantar pereiras em climas temperados é no outono, entre setembro e novembro, pois as raízes têm tempo de se estabelecer antes da chegada do verão. Em climas frios, é recomendável plantar na primavera, após a última geada. Antes de plantar, prepare o solo cavando um buraco grande o suficiente para acomodar as raízes da muda, geralmente de 60 cm de largura e 60 cm de profundidade. Misture o solo removido com composto orgânico para enriquecer a terra. Coloque a muda no buraco, espalhe as raízes e cubra com o solo preparado, firmando bem ao redor da planta para eliminar bolsas de ar. Regue abundantemente após o plantio.",
+      "image": [
+        "https://images.tcdn.com.br/img/img_prod/450860/muda_de_pera_d_agua_ou_europeia_1m_enxertada_676_1_20190611093602.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Goiaba",
+      "categoria": "Fruta",
+      "plantio": "Durante a estação da chuva",
+      "colheita": "Em torno de 3 anos",
+      "descrição": "A época ideal para plantar a goiabeira varia de acordo com o clima da região. Em climas tropicais, o plantio deve ser feito durante a estação chuvosa, entre outubro e março, enquanto em climas subtropicais, a primavera e o início do verão, de setembro a dezembro, são os melhores períodos. Antes de plantar, prepare o solo cavando um buraco suficientemente grande para acomodar as raízes da muda, geralmente de 60 cm de largura e 60 cm de profundidade. Misture o solo removido com composto orgânico ou esterco bem curtido para melhorar a fertilidade. Coloque a muda no buraco, espalhe as raízes e cubra com o solo preparado, firmando bem ao redor da planta para eliminar bolsas de ar. Regue abundantemente após o plantio para ajudar a planta a se estabelecer.",
+      "image": [
+        "https://abrafrutas.org/wp-content/uploads/2023/04/destaque-goiaba.webp"
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Amora",
+      "categoria": "Fruta",
+      "plantio": "Outubro a Novembro",
+      "colheita": "Em torno de 2 anos",
+      "descrição": "Para realizar o plantio e colheita da amora com sucesso, é essencial seguir um conjunto de passos bem definidos que garantam o desenvolvimento saudável das plantas e a obtenção de frutos de qualidade. O processo começa com a escolha cuidadosa do local de plantio, preferencialmente em um local ensolarado e protegido dos ventos fortes. A época ideal para o plantio da amora varia conforme o clima:",
+      "image": [
+        "https://paulista.pe.gov.br/site/app/webroot/files/arquivos/150520191428050000000.jpg"
+      ]
+    }
+  ]
 }
